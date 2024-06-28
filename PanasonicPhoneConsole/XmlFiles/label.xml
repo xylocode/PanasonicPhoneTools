@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://panasonic/sip_screen sip_screen.xsd" xmlns="http://panasonic/sip_screen">
+	<Screen version="2.0">
+		<Components>
+			<Label area="Phone" name="Label1" line="3" text="Hello, World!" textAlignment="Center" showDateTime="false" refreshDateTime="0" />
+		</Components>
+	</Screen>
+</ppxml>

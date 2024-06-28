@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>disable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+	  <AssemblyName>XyloCode.PanasonicPhoneTools</AssemblyName>
+	  <RootNamespace>XyloCode.PanasonicPhoneTools</RootNamespace>
+	  <PackageId>XyloCode.PanasonicPhoneTools</PackageId>
+	  <Title>PanasonicPhoneTools</Title>
+	  <Version>1.0.0</Version>
+	  <Authors>xylocode</Authors>
+	  <Copyright>Copyright (c) 2024 Sergey Korobeynikov</Copyright>
+	  <PackageTags>Panasonic; XML; KX-TGP600</PackageTags>
+	  <PackageIcon>LOGO.png</PackageIcon>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Product>XyloCode.PanasonicPhoneTools</Product>
+	  <Description>Unofficial client library for accessing Panasonic XML services on TGP600, HDV100/130/230/330/430 SIP phones.</Description>
+	  <PackageProjectUrl>https://xylocode.com/third-party-services/panasonic-phone-tools/</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/xylocode/PanasonicPhoneTools</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReleaseNotes>We were unable to get any XML services to work on the KX-TGP600RU SIP phone. The project was created to request official information from Panasonic.</PackageReleaseNotes>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LOGO.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+</Project>

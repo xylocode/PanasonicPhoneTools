@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://panasonic/sip_phone_directory sip_phone_phonebook.xsd" xmlns="http://panasonic/sip_phone">
+	<Screen version="2.0">
+		<PhoneBook version="2.0">
+			<Personnel id="1">
+				<Name>Emergency 112</Name>
+				<PhoneNums>
+					<PhoneNum type="company">112</PhoneNum>
+				</PhoneNums>
+			</Personnel>
+			<Personnel id="2">
+				<Name>Panasonic JP</Name>
+				<PhoneNums>
+					<PhoneNum type="company">0081669081551</PhoneNum>
+				</PhoneNums>
+			</Personnel>
+			<Personnel id="3">
+				<Name>NYC</Name>
+				<PhoneNums>
+					<PhoneNum type="company">0012125551212</PhoneNum>
+				</PhoneNums>
+			</Personnel>
+			<Personnel id="4">
+				<Name>John Smith</Name>
+				<Ruby>Susan Constant</Ruby>
+				<PhoneNums>
+					<PhoneNum type="ext">555</PhoneNum>
+					<PhoneNum type="mobile">5550123</PhoneNum>
+					<PhoneNum type="etc">0012125550123</PhoneNum>
+				</PhoneNums>
+			</Personnel>
+		</PhoneBook>
+	</Screen>
+</ppxml>
