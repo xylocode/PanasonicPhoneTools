@@ -48,7 +48,7 @@ No matter how good your products are, the software integration in them is bad. T
 
 2. Answer the question, do the phone's XML services work only in trigger mode or can they accept any XML request according to the schemas referenced in the documentation?
 3. What does error 0000 mean?
-4. Please answer the question about Unicode (UTF-8 encoding) and Cyrillic support, particularly for the phone book.
+4. Please answer the question about Unicode (UTF-8 encoding) and Cyrillic support, particularly for the phone book?
 5. Why does the TGP600 phone stop working after trying to export the phone book from a SIP phone?
 
 ## Appeal to Panasonic`s technical centers
